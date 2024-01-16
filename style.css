@@ -606,5 +606,36 @@ cursor: pointer;
     .cards-row1{
         flex-direction: column;
         width: 335px;
+        height: auto;
+       
+       
+    }
+
+    .choose-cards{
+        
+    }
+    .cards-row2{
+        flex-direction: column;
+    }
+    .row-card1 img,.row-card2 img,.row-card3 img{
+        width: 48px;
+        height: 48px;
+        margin-bottom: 16px;
+        
+    }
+    .choose-cards h3{
+        font-size: 20px;
+        
+    }
+    
+    .choose-cards p{
+       
+        font-size: 14px;
+        
+    }
+
+    .row-card1,.row-card2,.row-card3{
+        width: 335px;
+        height: 289px;
     }
 }
