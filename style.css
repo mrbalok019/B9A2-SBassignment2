@@ -13,6 +13,9 @@
     height: 45px;
     justify-content: space-between;
 }
+.bars{
+    display: none;
+}
 
 .webite-name{
     display: flex;
@@ -620,7 +623,7 @@ cursor: pointer;
 
 .footer>p{
     color: #5A5A5D;
-    width: 769px;
+    width: 56%;
     margin-left: auto;
     margin-right: auto;
     font-family: Mulish;
@@ -667,10 +670,15 @@ cursor: pointer;
 /* responsive design css */
 @media screen and (max-width: 600px) {
     .nav{
-        width:auto;
+        width: 335px;
+        
+        align-content: center;
+        text-align: center;
+        justify-content: space-between;
+  
     }
     .webite-name{
-        margin-left: 20px;
+        margin-left: 0px;
     }
     .webite-name>img{
        
@@ -680,10 +688,20 @@ cursor: pointer;
 
     .webite-name >h1{
         font-size: 22px;
+       left: 0;
     }
 
     .menu{
         display:none;
+    }
+    .bars{
+        display:inline;
+       
+       justify-items: center;
+    }
+    .bars>i{
+        width: 24px;
+height: 24px;
     }
     .banner{
         width: 335px;
@@ -810,6 +828,8 @@ cursor: pointer;
     }
     .cards-row2{
         flex-direction: column;
+        margin-bottom: 0;
+        width: 335px;
     }
     .row-card1 img,.row-card2 img,.row-card3 img{
         width: 48px;
@@ -823,13 +843,66 @@ cursor: pointer;
     }
     
     .choose-cards p{
-       
+        width: 271px;
         font-size: 14px;
         
     }
 
     .row-card1,.row-card2,.row-card3{
-        width: 335px;
+        width: 289px;
         height: 289px;
     }
+
+    .newsletter{
+        width: 335px;
+        flex-direction: column;
+    }
+    .subscribe{
+        
+    }
+    .subscribe h2{
+        
+        margin-bottom: 8px;
+        
+        font-size: 16px;
+    
+    }
+    
+    .subscribe p{
+       
+        margin-bottom: 16px;
+      
+        font-size: 14px;
+      
+    }
+    .subscribe hr{
+        margin-bottom: 16px;
+       
+    }
+    
+
+    .newsletter-image{
+        width: 335px;
+        height: 300px;
+        border: 5px solid;
+    }
+    
+    .save{
+        width: 214.023px;
+        height: 79.268px;
+    }
+   
+    .save h4{
+        font-size: 21.138px;
+    }
+    .save p{
+        font-size: 15.854px;
+    }
+
+
+
+
+
+
+
 }
