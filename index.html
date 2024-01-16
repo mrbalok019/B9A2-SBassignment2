@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SB Travel</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,7 +24,7 @@
             <a href="">Contact</a>
         </div>
     </nav>
-
+    
     <header>
         <div class="banner">
             <h1>Explore Your Travel</h1>
@@ -32,19 +33,91 @@
             </p>
             <div class="search">
                 <input type="text" placeholder="Where to go?">
-                <input type="text" placeholder="When">
-                <input type="text" placeholder="Select Type">
-                <button type="button">Find Now</button>
+                <select>
+                    <option value="" disabled selected hidden>When</option>
+                </select>
+                <select>
+                    <option value="" disabled selected hidden>Select Type </option>
+                </select>
+                <button type="button" ><i class="fa fa-search"></i>Find Now</button>
             </div>
         </div>
     </header>
 
     <main>
+        <!-- popular tour section  -->
+        <section class="popular">
+            <div class="popular-text">
+                <h1>Our Popular Tours</h1>
+                <p>
+                    Traveling is about meeting others. You can get to know people online through the website or meet them in real life...
+                    You want to travel the world or just visit the city down the road? Organise your journey through BeWelcome and meet nice people on the way.We want to make sharing and meeting not only fun but also easy. Our tools and features help with that.<br>
+                    We believe sharing creates a better world. We share experiences, moments, knowledge and we welcome guests in our homes, if we can.<br>
+                    We believe that sharing creates a better world. You can let people stay over or show them around. Its easy and its called hospitality.<br>
+                    There are many factors to keep in mind when evaluating your trip, including what to do before leaving and your budget. To help you get started, we’ve put together a guide on how to travel the world, including everything from how to start looking into your trip to how to save money once you are abroad.
+                </p>
+                <button> Read More</button>
+            </div>
+            <img src="Images/Rectangle 4.png" alt="">
+        </section>
 
+        <!-- choose your destination part -->
+        <section class="destination">
+            <div class="destination-text">
+                <h1>Choose Your Destination</h1>
+                <p>Beautiful places are waiting for your arrival. Visit the scenic beauty of nature. Explore the world and have the adventure of lifetime.</p>
+                <div class="destination-images">
+                    <div class="image-row1">
+                        <div class="maldives"><h2>Maldives</h2></div>
+                        <div class="indonesia"><h2>Indonesia</h2></div>
+                    </div>
+                    <div class="image-row2">
+                        <div class="srilanka"><h2>Srilanka</h2></div>
+                        <div class="northamerica"><h2>North America</h2></div>
+                        <div class="kashmir"><h2>Kashmir</h2></div>
+                    </div>
+                    <div class="image-row3">
+                        <div class="bangladesh"><h2>Bangladesh</h2></div>
+                        <div class="bandarban"><h2>Bandarban</h2></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- why choose us -->
+        <section class="choose">
+            <div class="choose-text">
+                <h1>Why Choose Us</h1>
+                <p>Figuring out how to travel the world is no easy feat, especially when you’re trying to do it on a budget or planning world travel with a family.
+                    We are here to help you with our best efforts.
+                </p>
+                <div class="choose-cards">
+                    <div class="cards-row1">
+                       <div class="row1-card1">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                       </div>
+                       <div class="row1-card2">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                       </div>
+                    </div>
+                    <div class="cards-row2">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+         
     </main>
 
     <footer>
-
+               
     </footer>
 
 </body>
