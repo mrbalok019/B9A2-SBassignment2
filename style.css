@@ -236,6 +236,7 @@ cursor: pointer;
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin-bottom: 100px;
 }
 
 .image-row1{
@@ -352,9 +353,119 @@ cursor: pointer;
     line-height: normal;
 }
 
+/* why choose us  */
 
+.choose{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.choose-text{
+    width:100%;
+    text-align: center; 
+}
+.choose-text h1{
+    color: #131318;
+    margin-bottom: 24px;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.choose-text p{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
 
+.choose-cards{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 24px;
+   
+
+}
+.cards-row1{
+    display: flex;
+    gap:24px;
+    
+    height: 284px;
+    justify-content: space-between;
+   
+}
+
+.row-card1{
+    width: auto;
+    height: auto;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+       
+}
+.row-card2{
+    width: auto;
+    height: auto; 
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.cards-row2{
+    display: flex;
+    
+    
+    height: 284px;
+    justify-content: space-around;
+    margin-bottom: 100px;
+   
+}
+.row-card3{
+    width: 573px;
+    height: auto; 
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.row-card1 img,.row-card2 img,.row-card3 img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 32px;
+    
+}
+.choose-cards h3{
+    color: #131318;
+    margin-bottom: 16px;
+    
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.choose-cards p{
+    color: #5A5A5D;
+    
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
 
 
 
@@ -465,10 +576,35 @@ cursor: pointer;
     .image-row3{
         display: flex;
         flex-direction: column;
+        
        
+    }
+    .destination-images{
+        margin-bottom:0;
     }
     .destination-images h2{
         font-size: 20px;
+       
     }
-    
+
+    .choose{
+        
+            width: 335px;
+            margin-bottom: 24px;
+        
+    }
+    .choose-text h1{
+        font-size: 20px;
+        text-align: center;
+
+    }
+    .choose-text p{
+        font-size: 14px;
+        width:309px;
+        margin-bottom: 16px;
+    }
+    .cards-row1{
+        flex-direction: column;
+        width: 335px;
+    }
 }
