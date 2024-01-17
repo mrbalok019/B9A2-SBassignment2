@@ -473,7 +473,7 @@ cursor: pointer;
 /* newsletter */
 .newsletter{
     width: 1170px;
-    height: 422px;
+   
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -548,6 +548,7 @@ cursor: pointer;
     width: 672px;
     background: url("Images/Rectangle\ 20.png"), lightgray 50% / cover no-repeat;
     display: flex;
+    border-radius: 16px;
     align-items: flex-end;
     justify-content: right;
   
@@ -851,14 +852,17 @@ height: 24px;
     .row-card1,.row-card2,.row-card3{
         width: 289px;
         height: 289px;
+        padding:20px;
     }
 
     .newsletter{
         width: 335px;
         flex-direction: column;
+        margin-bottom: 24px;
     }
     .subscribe{
-        
+        width: auto;
+        padding: 23px;
     }
     .subscribe h2{
         
@@ -882,9 +886,9 @@ height: 24px;
     
 
     .newsletter-image{
-        width: 335px;
+        width: auto;
         height: 300px;
-        border: 5px solid;
+        
     }
     
     .save{
@@ -899,7 +903,9 @@ height: 24px;
         font-size: 15.854px;
     }
 
-
+    .footer-name{
+        padding-top: 33px;
+    }
 
 
 
