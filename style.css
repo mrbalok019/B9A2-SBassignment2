@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     border: 0;
     font-family: "Mulish", sans-serif;
 }
 
-.nav{
+.nav {
     display: flex;
     margin: auto;
     margin-top: 45px;
@@ -13,20 +13,23 @@
     height: 45px;
     justify-content: space-between;
 }
-.bars{
+
+.bars {
     display: none;
 }
 
-.webite-name{
+.webite-name {
     display: flex;
     align-content: center;
-    
+
 }
-.website-name img{
+
+.website-name img {
     width: 48 px;
     height: 56 px;
 }
-.webite-name>h1{
+
+.webite-name>h1 {
     color: #131318;
     margin-left: 16px;
     font-family: Mulish;
@@ -36,7 +39,7 @@
     line-height: normal;
 }
 
-.menu{
+.menu {
     width: 506px;
     height: 24px;
     display: inline-flex;
@@ -45,7 +48,8 @@
     align-items: center;
     gap: 44px;
 }
-.menu>a{
+
+.menu>a {
     text-align: center;
     font-family: Mulish;
     font-size: 18px;
@@ -57,19 +61,20 @@
 }
 
 /* Banner */
-.banner{
-  
+.banner {
+
     width: 1170px;
     height: 500px;
-    margin:auto;
+    margin: auto;
     border-radius: 16px;
     margin-top: 3rem;
 
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,url("Images/Group\ 13\ \(1\)\ \(1\).png");
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Group\ 13\ \(1\)\ \(1\).png");
 
 
 }
-.banner h1{
+
+.banner h1 {
     text-align: center;
     color: #FFF;
     padding-top: 106px;
@@ -80,7 +85,8 @@
     font-weight: 800;
     line-height: normal;
 }
-.banner>p{
+
+.banner>p {
     color: #FFF;
     margin-bottom: 24px;
     text-align: center;
@@ -88,9 +94,10 @@
     font-size: 1 rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; 
+    line-height: 26px;
 }
-.search{
+
+.search {
     display: inline-flex;
     padding: 16px;
     align-items: flex-start;
@@ -100,64 +107,69 @@
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
 }
-.search>input,select{
-    
+
+.search>input,
+select {
+
     width: 174px;
     height: 52px;
     border-radius: 8px;
     background: #FFF;
-    text-indent: 16px ;
+    text-indent: 16px;
 }
 
-.search>select>option{
+.search>select>option {
     color: rgba(19, 19, 24, 0.50);
-    text-indent: 16px ;
+    text-indent: 16px;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.search>button{
-  
-width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FF5400;
-color: #FFF;
 
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-cursor: pointer;
+.search>button {
+
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
 }
-.search>button>i{
+
+.search>button>i {
     margin-right: 0.5rem;
 }
 
 /* popular text section  */
-.popular{
+.popular {
     width: 1170px;
     height: 550px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-  
+
     margin-top: 100px;
     justify-items: space-between;
     align-content: center;
     margin-bottom: 100px;
-    
-}
-.popular-text{
-    width: 100%;
-    height:100%;
+
 }
 
-.popular-text h1{
+.popular-text {
+    width: 100%;
+    height: 100%;
+}
+
+.popular-text h1 {
     color: #131318;
     margin-bottom: 24px;
     text-align: left;
@@ -168,17 +180,17 @@ cursor: pointer;
     line-height: normal;
 }
 
-.popular-text p{
+.popular-text p {
     color: #5A5A5D;
     margin-bottom: 32px;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; 
+    line-height: 26px;
 }
 
-.popular-text button{
+.popular-text button {
     width: 174px;
     height: 52px;
     border-radius: 8px;
@@ -193,26 +205,27 @@ cursor: pointer;
     line-height: normal;
 }
 
-.popular img{
+.popular img {
     width: 100%;
-    margin-left:50px;   
+    margin-left: 50px;
     height: 100%;
 }
 
 /* choose your destination part  */
-.destination{
-    width: 1170px; 
+.destination {
+    width: 1170px;
     margin-left: auto;
     margin-right: auto;
 }
-.destination-text{
-    width:100%;
-  text-align: center;
 
-   
+.destination-text {
+    width: 100%;
+    text-align: center;
+
+
 }
 
-.destination-text h1{
+.destination-text h1 {
     color: #131318;
     margin-bottom: 24px;
     font-family: Mulish;
@@ -221,7 +234,8 @@ cursor: pointer;
     font-weight: 800;
     line-height: normal;
 }
-.destination-text p{
+
+.destination-text p {
     width: 643px;
     color: rgba(19, 19, 24, 0.70);
     margin-bottom: 48px;
@@ -235,117 +249,123 @@ cursor: pointer;
     line-height: 26px;
 }
 
-.destination-images{
+.destination-images {
     display: flex;
     flex-direction: column;
     gap: 24px;
     margin-bottom: 100px;
 }
 
-.image-row1{
+.image-row1 {
     display: inline-flex;
-    gap:24px;
+    gap: 24px;
 }
-.maldives{
+
+.maldives {
     width: 573px;
-    height: 300px;    
+    height: 300px;
     border-radius: 16px;
-    
+
     background-repeat: no-repeat;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 5.png), lightgray 50%  ;  
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 5.png), lightgray 50%;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 
-    
+
 }
-.indonesia{
+
+.indonesia {
     width: 573px;
-    height: 300px;    
+    height: 300px;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 8.png), lightgray 50% / cover no-repeat;  
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 8.png), lightgray 50% / cover no-repeat;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 
-    
+
 }
-.image-row2{
+
+.image-row2 {
     display: inline-flex;
-    gap:24px;
+    gap: 24px;
 }
-.srilanka{
+
+.srilanka {
     width: 374px;
-    height: 286px;  
+    height: 286px;
     background-size: ;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;  
-   
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
+
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 
-    
+
 }
-.northamerica{
+
+.northamerica {
     width: 474px;
     height: 286px;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;  
-   
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 
-    
+
 }
-.kashmir{
+
+.kashmir {
     width: 274px;
     height: 286px;
     border-radius: 16px;
     background-repeat: no-repeat;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 9.png), lightgray 50%;  
-   
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 9.png), lightgray 50%;
+
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 
-    
+
 }
 
-.image-row3{
+.image-row3 {
     display: inline-flex;
-    gap:24px;
+    gap: 24px;
 }
 
-.bangladesh{
+.bangladesh {
     width: 473px;
     height: 300px;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 11.png), lightgray 50% / cover no-repeat;  
-   
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 11.png), lightgray 50% / cover no-repeat;
+
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 
-    
+
 }
 
-.bandarban{
+.bandarban {
     width: 673px;
     height: 300px;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;  
-   
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
+
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 
-    
+
 }
 
 
-.destination-images h2{
+.destination-images h2 {
     color: #FFF;
     vertical-align: middle;
     text-align: center;
@@ -358,17 +378,18 @@ cursor: pointer;
 
 /* why choose us  */
 
-.choose{
+.choose {
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.choose-text{
-    width:100%;
-    text-align: center; 
+.choose-text {
+    width: 100%;
+    text-align: center;
 }
-.choose-text h1{
+
+.choose-text h1 {
     color: #131318;
     margin-bottom: 24px;
     font-family: Mulish;
@@ -377,7 +398,8 @@ cursor: pointer;
     font-weight: 800;
     line-height: normal;
 }
-.choose-text p{
+
+.choose-text p {
     width: 643px;
     color: rgba(19, 19, 24, 0.70);
     margin-bottom: 48px;
@@ -391,68 +413,75 @@ cursor: pointer;
     line-height: 26px;
 }
 
-.choose-cards{
+.choose-cards {
     display: flex;
     flex-direction: column;
-    
+
     gap: 24px;
-   
+
 
 }
-.cards-row1{
+
+.cards-row1 {
     display: flex;
-    gap:24px;
-    
+    gap: 24px;
+
     height: 284px;
     justify-content: space-between;
-   
+
 }
 
-.row-card1{
+.row-card1 {
     width: auto;
     height: auto;
     padding: 32px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-       
+
 }
-.row-card2{
+
+.row-card2 {
     width: auto;
-    height: auto; 
+    height: auto;
     padding: 32px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
 
-.cards-row2{
+.cards-row2 {
     display: flex;
-    
-    
+
+
     height: 284px;
     justify-content: space-around;
     margin-bottom: 100px;
-   
+
 }
-.row-card3{
+
+.row-card3 {
     width: 573px;
-    height: auto; 
+    height: auto;
     padding: 32px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
-.row-card1 img,.row-card2 img,.row-card3 img{
+
+.row-card1 img,
+.row-card2 img,
+.row-card3 img {
     width: 64px;
     height: 64px;
     margin-bottom: 32px;
-    
+
 }
-.choose-cards h3{
+
+.choose-cards h3 {
     color: #131318;
     margin-bottom: 16px;
-    
+
     font-family: Mulish;
     font-size: 24px;
     font-style: normal;
@@ -460,9 +489,9 @@ cursor: pointer;
     line-height: normal;
 }
 
-.choose-cards p{
+.choose-cards p {
     color: #5A5A5D;
-    
+
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
@@ -471,9 +500,9 @@ cursor: pointer;
 }
 
 /* newsletter */
-.newsletter{
+.newsletter {
     width: 1170px;
-   
+
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -482,16 +511,16 @@ cursor: pointer;
     margin-bottom: 100px;
 }
 
-.subscribe{
+.subscribe {
     width: auto;
     height: auto;
-        
+
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 40px;
 }
 
-.subscribe h2{
+.subscribe h2 {
     color: #131318;
     margin-bottom: 16px;
     font-family: Mulish;
@@ -501,7 +530,7 @@ cursor: pointer;
     line-height: normal;
 }
 
-.subscribe p{
+.subscribe p {
     color: #5A5A5D;
     margin-bottom: 24px;
     font-family: Mulish;
@@ -510,14 +539,15 @@ cursor: pointer;
     font-weight: 400;
     line-height: 26px;
 }
-.subscribe hr{
+
+.subscribe hr {
     margin-bottom: 24px;
     width: 95%;
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
 }
 
-.subscribe input{
+.subscribe input {
     width: 95%;
     height: 52px;
     text-indent: 20px;
@@ -526,7 +556,7 @@ cursor: pointer;
     background: rgba(19, 19, 24, 0.05);
 }
 
-.subscribe button{
+.subscribe button {
     border-radius: 8px;
     width: 95%;
     height: 52px;
@@ -543,7 +573,7 @@ cursor: pointer;
     cursor: pointer;
 }
 
-.newsletter-image{
+.newsletter-image {
     height: auto;
     width: 672px;
     background: url("Images/Rectangle\ 20.png"), lightgray 50% / cover no-repeat;
@@ -551,9 +581,10 @@ cursor: pointer;
     border-radius: 16px;
     align-items: flex-end;
     justify-content: right;
-  
+
 }
-.save{
+
+.save {
     width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
@@ -563,10 +594,10 @@ cursor: pointer;
     border-radius: 16px;
     margin-bottom: 50px;
     margin-right: 10px;
-   
+
 }
 
-.save p{
+.save p {
     color: #FFF;
     padding-top: 20px;
     margin-bottom: 4px;
@@ -578,7 +609,7 @@ cursor: pointer;
     line-height: normal;
 }
 
-.save h4{
+.save h4 {
     color: #FFF;
 
     font-family: Mulish;
@@ -590,28 +621,31 @@ cursor: pointer;
 
 
 /* footer part */
-.footer{
+.footer {
     width: 100%;
     height: auto;
- text-align: center;
- background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
 
 }
-.footer-name{
+
+.footer-name {
     display: flex;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-   justify-content: center;
-   padding-top:110px ;
-    
+    justify-content: center;
+    padding-top: 110px;
+
 }
-.footer-name>img{
+
+.footer-name>img {
     width: 40px;
     height: 46.673px;
-    margin-right: 16px ;
+    margin-right: 16px;
 }
-.footer-name>h1{
+
+.footer-name>h1 {
     color: var(--Dark-01, #131318);
 
     font-family: Mulish;
@@ -622,7 +656,7 @@ cursor: pointer;
     margin-bottom: 15px;
 }
 
-.footer>p{
+.footer>p {
     color: #5A5A5D;
     width: 56%;
     margin-left: auto;
@@ -635,7 +669,7 @@ cursor: pointer;
     padding-bottom: 32px;
 }
 
-.icons{
+.icons {
     width: 174.322px;
     height: 24px;
     display: inline-flex;
@@ -644,10 +678,10 @@ cursor: pointer;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
-.footer hr{
+.footer hr {
     width: 872px;
     height: 1px;
     margin-bottom: 50px;
@@ -657,7 +691,7 @@ cursor: pointer;
 }
 
 /* bonus part  */
-.bonus{
+.bonus {
     width: 1170px;
     height: 500px;
     display: flex;
@@ -665,13 +699,14 @@ cursor: pointer;
 
     align-content: center;
     margin-left: auto;
-    margin-right: auto; 
-    background-image:url("Images/dubai.png");
+    margin-right: auto;
+    background-image: url("Images/dubai.png");
 }
 
-.bonus-text{
-    width:500px;
-    height: 400px;;
+.bonus-text {
+    width: 500px;
+    height: 400px;
+    ;
     border-radius: 10%;
     background: rgba(255, 255, 255, 0.386);
     margin-top: auto;
@@ -683,7 +718,7 @@ cursor: pointer;
 
 }
 
-.bonus-text h3{
+.bonus-text h3 {
     text-align: center;
     color: #FFF;
     padding-top: 56px;
@@ -694,7 +729,8 @@ cursor: pointer;
     font-weight: 800;
     line-height: normal;
 }
-.bonus-text h1{
+
+.bonus-text h1 {
     text-align: center;
     color: #FFF;
     /* padding-top: 106px; */
@@ -705,13 +741,14 @@ cursor: pointer;
     font-weight: 800;
     line-height: normal;
 }
-.bonus-text button{
+
+.bonus-text button {
     width: 200px;
     height: 100px;
     border-radius: 25%;
     background: #FF5400;
     color: #FFF;
-    
+
     text-align: center;
     font-family: Mulish;
     font-size: 36px;
@@ -721,11 +758,36 @@ cursor: pointer;
     cursor: pointer;
 }
 
+.get-app {
+    width: 500px;
+    height: 400px;
+    ;
+    border-radius: 10%;
+    background: rgba(255, 255, 255, 0.386);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.get-app h1 {
+    text-align: center;
+    color: #FFF;
+    padding-top: 56px;
+    margin-bottom: 24px;
+    font-family: Mulish;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 
 
-
-
-
+.app{
+    display: inline-flex;
+}
 
 
 
@@ -756,71 +818,83 @@ cursor: pointer;
 
 /* responsive design css */
 @media screen and (max-width: 600px) {
-    .nav{
+    .nav {
         width: 335px;
-        
+
         align-content: center;
         text-align: center;
         justify-content: space-between;
-  
+
     }
-    .webite-name{
+
+    .webite-name {
         margin-left: 0px;
     }
-    .webite-name>img{
-       
-    width: 28.724px;
-    height: 33.516px;
+
+    .webite-name>img {
+
+        width: 28.724px;
+        height: 33.516px;
     }
 
-    .webite-name >h1{
+    .webite-name>h1 {
         font-size: 22px;
-       left: 0;
+        left: 0;
     }
 
-    .menu{
-        display:none;
+    .menu {
+        display: none;
     }
-    .bars{
-        display:inline;
-       
-       justify-items: center;
+
+    .bars {
+        display: inline;
+
+        justify-items: center;
     }
-    .bars>i{
+
+    .bars>i {
         width: 24px;
-height: 24px;
+        height: 24px;
     }
-    .banner{
+
+    .banner {
         width: 335px;
         height: 483px;
     }
-    .banner>h1{
+
+    .banner>h1 {
         font-size: 22px;
-        padding-top:32px;
+        padding-top: 32px;
     }
-    .banner>p{
+
+    .banner>p {
         margin-left: 1rem;
     }
-    .search{
+
+    .search {
         width: 255px;
         height: 256px;
         display: flex;
         flex-direction: column;
-        margin-left:24px;
+        margin-left: 24px;
         margin-right: 24px;
         margin-top: 0;
     }
-    .search>input,select{
+
+    .search>input,
+    select {
         width: 255px;
         height: 52px;
 
     }
-    .search>button{
+
+    .search>button {
         width: 255px;
         height: 52px;
     }
+
     /* popular tours  */
-    .popular{
+    .popular {
         flex-direction: column;
         width: 335px;
         height: auto;
@@ -828,168 +902,196 @@ height: 24px;
         gap: 24px;
         margin-bottom: 24px;
     }
-    .popular-text h1{
+
+    .popular-text h1 {
         font-size: 20px;
-        margin-bottom:16px ;
+        margin-bottom: 16px;
     }
-    .popular-text p{
+
+    .popular-text p {
         font-size: 14px;
         margin-bottom: 24px;
 
     }
-    .popular img{
+
+    .popular img {
         margin: 0;
     }
 
     /* choose your destination */
-    .destination{
+    .destination {
         width: 335px;
         margin-bottom: 24px;
     }
-    .destination-text h1{
+
+    .destination-text h1 {
         font-size: 20px;
         margin-bottom: 16px;
-    
+
     }
-    .destination-text p{
+
+    .destination-text p {
         width: 100%;
         font-size: 14px;
         margin-bottom: 16px;
-        
+
     }
 
-    .image-row1{
+    .image-row1 {
         display: flex;
         flex-direction: column;
-        
+
     }
-    .maldives,.indonesia,.srilanka,.northamerica,.kashmir,.bangladesh,.bandarban{
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .northamerica,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
         width: 335px;
         height: 176px;
     }
-    .image-row2{
+
+    .image-row2 {
         display: flex;
         flex-direction: column;
-        
-    }
-    .image-row3{
-        display: flex;
-        flex-direction: column;
-        
-       
-    }
-    .destination-images{
-        margin-bottom:0;
-    }
-    .destination-images h2{
-        font-size: 20px;
-       
+
     }
 
-    .choose{
-        
-            width: 335px;
-            margin-bottom: 24px;
-        
+    .image-row3 {
+        display: flex;
+        flex-direction: column;
+
+
     }
-    .choose-text h1{
+
+    .destination-images {
+        margin-bottom: 0;
+    }
+
+    .destination-images h2 {
+        font-size: 20px;
+
+    }
+
+    .choose {
+
+        width: 335px;
+        margin-bottom: 24px;
+
+    }
+
+    .choose-text h1 {
         font-size: 20px;
         text-align: center;
 
     }
-    .choose-text p{
+
+    .choose-text p {
         font-size: 14px;
-        width:309px;
+        width: 309px;
         margin-bottom: 16px;
     }
-    .cards-row1{
+
+    .cards-row1 {
         flex-direction: column;
         width: 335px;
         height: auto;
-       
-       
+
+
     }
 
-    .choose-cards{
-        
-    }
-    .cards-row2{
+    .choose-cards {}
+
+    .cards-row2 {
         flex-direction: column;
         margin-bottom: 0;
         width: 335px;
     }
-    .row-card1 img,.row-card2 img,.row-card3 img{
+
+    .row-card1 img,
+    .row-card2 img,
+    .row-card3 img {
         width: 48px;
         height: 48px;
         margin-bottom: 16px;
-        
+
     }
-    .choose-cards h3{
+
+    .choose-cards h3 {
         font-size: 20px;
-        
+
     }
-    
-    .choose-cards p{
+
+    .choose-cards p {
         width: 271px;
         font-size: 14px;
-        
+
     }
 
-    .row-card1,.row-card2,.row-card3{
+    .row-card1,
+    .row-card2,
+    .row-card3 {
         width: 289px;
         height: 289px;
-        padding:20px;
+        padding: 20px;
     }
 
-    .newsletter{
+    .newsletter {
         width: 335px;
         flex-direction: column;
         margin-bottom: 24px;
     }
-    .subscribe{
+
+    .subscribe {
         width: auto;
         padding: 23px;
     }
-    .subscribe h2{
-        
-        margin-bottom: 8px;
-        
-        font-size: 16px;
-    
-    }
-    
-    .subscribe p{
-       
-        margin-bottom: 16px;
-      
-        font-size: 14px;
-      
-    }
-    .subscribe hr{
-        margin-bottom: 16px;
-       
-    }
-    
 
-    .newsletter-image{
+    .subscribe h2 {
+
+        margin-bottom: 8px;
+
+        font-size: 16px;
+
+    }
+
+    .subscribe p {
+
+        margin-bottom: 16px;
+
+        font-size: 14px;
+
+    }
+
+    .subscribe hr {
+        margin-bottom: 16px;
+
+    }
+
+
+    .newsletter-image {
         width: auto;
         height: 300px;
-        
+
     }
-    
-    .save{
+
+    .save {
         width: 214.023px;
         height: 79.268px;
     }
-   
-    .save h4{
+
+    .save h4 {
         font-size: 21.138px;
     }
-    .save p{
+
+    .save p {
         font-size: 15.854px;
     }
 
-    .footer-name{
+    .footer-name {
         padding-top: 33px;
     }
 
