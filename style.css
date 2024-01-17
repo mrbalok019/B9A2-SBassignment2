@@ -203,6 +203,7 @@ select {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+     cursor: pointer;
 }
 
 .popular img {
@@ -680,7 +681,9 @@ select {
     margin-right: auto;
 
 }
-
+.icons i{
+    cursor: pointer;
+}
 .footer hr {
     width: 872px;
     height: 1px;
